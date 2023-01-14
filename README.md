@@ -17,4 +17,18 @@
 - 長いコメントはプルリクに
   - プルリクのマージは個人でどうぞ
 
+# 技術スタック
+
+- Nextjs
+- Typescript
+- agora
+  - [ドキュメント](https://docs.agora.io/en/interactive-live-streaming/get-started/get-started-sdk?platform=web)
+
+- Webページ用のサーバ ... Nextjs
+- WebSocket ... Nodejsでいい感じに
+
+# 作るページ
+
+- メインページ
+- ミーティング
 
