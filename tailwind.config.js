@@ -21,9 +21,9 @@ module.exports = {
         },
         gray: {
           0: "#f8f8fa",
-          3: "#f2f2f7",
-          1: "#e9e9f0",
-          2: "#222230",
+          1: "#f2f2f7",
+          2: "#e9e9f0",
+          3: "#222230",
         },
       },
       borderRadius: {
