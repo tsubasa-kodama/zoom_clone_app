@@ -1,5 +1,7 @@
 import Button from '@/components/Button';
+import Center from '@/components/Center';
 import Dialog, { DialogActions, DialogContent, DialogTitle, useDialog } from '@/components/Dialog';
+import Loading from '@/components/Loading';
 import OutlinedButton from '@/components/OutlinedButton';
 import TextButton from '@/components/TextButton';
 import { NextPage } from 'next';
@@ -63,6 +65,15 @@ const ForUiTestPage: NextPage<Props> = ({ }) => {
                         </Button>
                     </DialogActions>
                 </Dialog>
+            </section>
+
+            <section>
+                <h2>loading and center</h2>
+                <Center>
+                    <Loading
+                        isLoading
+                    />
+                </Center>
             </section>
         </main>
     );
