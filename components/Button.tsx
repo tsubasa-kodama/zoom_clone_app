@@ -16,7 +16,7 @@ const Button: FC<ButtonProps> = ({
     const fontSize = size === "sm" ? "text-base" : size ? "text-xl" : "text-3xl"
     return (
         <button
-            className={classNames(className,
+            className={classNames(
                 "bg-theme-0",
                 "text-white",
                 p,
@@ -31,6 +31,7 @@ const Button: FC<ButtonProps> = ({
                 "transition-all",
                 "hover:bg-opacity-75",
                 "active:bg-opacity-90",
+                className,
             )}
             {...buttonProps}
         >

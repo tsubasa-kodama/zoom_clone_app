@@ -15,7 +15,7 @@ const OutlinedButton: FC<OutlinedButtonProps> = ({
     const fontSize = size === "sm" ? "text-base" : size ? "text-xl" : "text-3xl"
     return (
         <button
-            className={classNames(className,
+            className={classNames(
                 "outline-none",
                 "border-2",
                 "border-gray-3",
@@ -30,6 +30,7 @@ const OutlinedButton: FC<OutlinedButtonProps> = ({
                 "transition-all",
                 "hover:bg-gray-1",
                 "active:bg-gray-2",
+                className,
             )}
             {...buttonProps}
         >
