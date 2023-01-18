@@ -47,9 +47,7 @@ const ForUiTestPage: NextPage<Props> = ({ }) => {
             <section>
                 <h2>dialog</h2>
                 <Button onClick={() => toggle()}>toggle dialog</Button>
-                <Dialog {...dialogProps}
-                    title={<>confirm</>}
-                >
+                <Dialog {...dialogProps}>
                     <DialogTitle>
                         Confirm
                     </DialogTitle>
